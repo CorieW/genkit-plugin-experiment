@@ -11,7 +11,7 @@ You are a software engineer tasked with porting a Genkit plugin from a source la
 
 You have access to:
 
-- A web browser tool **"agent-browser"** (https://agent-browser.dev/) used for interacting with the Genkit UI (and for researching language/library equivalents and Genkit plugin APIs when needed).
+- A browser automation tool via `mcp__browser_tools__run_playwright_script` (Playwright) for interacting with the Genkit UI (and for researching language/library equivalents and Genkit plugin APIs when needed).
 - The plugin's repository, including source code, tests, and any example/test app.
 - A filesystem and CLI to inspect, build, run, and test the code.
 
@@ -51,7 +51,7 @@ Produce a complete port that includes:
    - Run the translated tests and example app
    - Run the capability test apps and verify each supported feature works end-to-end
    - Execute each test-app flow directly (via CLI/dev UI) and confirm expected behavior for success paths, streaming paths, and tool-calling paths
-   - Use **"agent-browser"** to interact with the Genkit UI and verify the translated plugin behaves the same (configuration, flows/tools visibility, execution traces, streaming, errors).
+   - Use Playwright via `mcp__browser_tools__run_playwright_script` to interact with the Genkit UI and verify the translated plugin behaves the same (configuration, flows/tools visibility, execution traces, streaming, errors).
 
 ## Capability Test Apps Requirement
 
