@@ -1,0 +1,18 @@
+name: genkit_compat_oai
+description: OpenAI-compatible plugin for Genkit Dart, ported from @genkit-ai/compat-oai.
+version: 0.0.1-dev.0
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  genkit: ^0.10.0-dev.16
+  http: ^1.5.0
+  http_parser: ^4.1.2
+  meta: ^1.17.0
+  openai_dart: ^0.6.2
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.29.0

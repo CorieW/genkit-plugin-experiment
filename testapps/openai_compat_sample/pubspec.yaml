@@ -1,0 +1,15 @@
+name: openai_compat_sample
+description: Sample flows for the genkit_compat_oai plugin.
+publish_to: none
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  genkit: ^0.10.0-dev.18
+  genkit_compat_oai:
+    path: ../../plugins/compat-oai-dart
+  schemantic: ^0.0.1-dev.19
+
+dev_dependencies:
+  lints: ^6.0.0

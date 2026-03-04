@@ -1,0 +1,24 @@
+# Dart/Pub
+.dart_tool/
+.packages
+build/
+pubspec.lock
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# Generated files
+*.g.dart
+
+# Other common patterns
+*.log
+
+# Genkit
+genkit_out/
+genkit_build/
+genkit_cache/
+.genkit
+.genkit_*
+.genkit-*

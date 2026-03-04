@@ -1,0 +1,4 @@
+interface:
+  display_name: "Genkit Plugin Port"
+  short_description: "Port a Genkit plugin to another language"
+  default_prompt: "Use $genkit-plugin-port to port this Genkit plugin to the target language with functional equivalence, including implementation, tests, and docs."
